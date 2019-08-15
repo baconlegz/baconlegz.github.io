@@ -52,6 +52,7 @@ html {
 }
 .bg-nav-dark {
     background-color: #202020;
+    transition: background-color 200ms linear;
 }
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -5979,7 +5980,9 @@ a.close.disabled {
   position: relative;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 1rem 0;
+  margin: 0 3rem;
+  text-align: left;
 }
 
 .modal-footer {

@@ -19,7 +19,7 @@
 
 <body data-spy="scroll" data-target="#navbar-example2" data-offset="210">
   <!-- Navigation -->
-  <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark fixed-top bg-nav-dark">
+  <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
       <a href="#home"><img class="hidden-xs" src="img/img_total-home-repair-logo-rev.png" height="65px;" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,9 +67,12 @@
           <span>
             <h2 id="about" style="display: inline; vertical-align: middle;">Fully Licensed and Insured</h2><img src="img\img_total-home-repair-insured-icon.png" style="padding-left: 20px; vertical-align: middle;" height="40px" />
           </span>
-          <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
+          <p class="mt-4">Total Home Repair, a family owned and operated business with over 30-years experience in mechanical home repairs, and in business proudly serving the southeast valley for over 20-years. We have built our business by
+            consistently treating our customers the way we like to be treated- with honesty, integrity, and respect.
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+          <p>We work closely with our customers to provide solutions that are designed to address their unique needs and with fair prices. We are licensed, bonded, & insured with an A+ Rating with the BBB. We have the experience and tools necessary
+            to not only complete the job, but make it a professional and pleasant experience. Our technicians are certified and experienced. Customer Service is our top priority! Call to schedule your home repair needs today where one of our
+            friendly, knowledgeable staff is ready to answer your questions.</p>
           <a class="btn btn-primary btn-lg mr-md-5 anchor-nav" href="#contact">Set an Appointment</a>
         </div>
       </div>
@@ -84,11 +87,45 @@
           <div class="card-body">
             <div class="mb-4">
               <h4 class="card-title mb-4">Appliance Repair & Installation</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus id quam eu pellentesque. Sed sed mauris nec dui consectetur commodo et sit amet leo. Aliquam erat volutpat. Curabitur tincidunt justo sit amet
-                urna accumsan, at pellentesque orci blandit.</p>
+              <p class="card-text">We offer a full range of appliance and installation services. Let us do the heavy lifting and ensure a safe and professional install of your household appliances. Click below to see all services we offer.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-sm btn-secondary anchor-nav">Contact us</a>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#appliances">
+                All services
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="appliances" tabindex="-1" role="dialog" aria-labelledby="appliacefixlist" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Full List of Appliace Services</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>Washer & Dryer repair & installation</li>
+                        <li>Dishwasher repair & installation</li>
+                        <li>Refrigerator repair (Do not offer installation) </li>
+                        <li>Ice Maker repair & installation</li>
+                        <li>Free Standing Freezer repair (Do not offer installation)</li>
+                        <li>Stove/Range repair & installation</li>
+                        <li>Cooktop & built-in oven repairs (Do not offer installation)</li>
+                        <li>Microwave oven repair (Do not offer installation)</li>
+                        <li>Trash Compactor repair (Do not offer installation)</li>
+                      </ul>
+                      <a class="btn btn-primary btn-lg mr-md-5 mb-4 anchor-nav" href="#contact" data-dismiss="modal">Contact Us</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -99,11 +136,45 @@
           <div class="card-body">
             <div class="mb-4">
               <h4 class="card-title mb-4">Air Conditioning & Heating</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus id quam eu pellentesque. Sed sed mauris nec dui consectetur commodo et sit amet leo. Aliquam erat volutpat. Curabitur tincidunt justo sit amet
-                urna accumsan, at pellentesque orci blandit.</p>
+              <p class="card-text">If you are looking to repair, replace or maintain your AC or heating, you deserve peace of mind. Our team of professionals ensure that the job will be bone properly and to your needs. Click below for a full list of
+                all services and repiars we offer.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-sm btn-secondary anchor-nav">Contact us</a>
+              <button type="button" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#ac">
+                All Services
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="ac" tabindex="-1" role="dialog" aria-labelledby="acfixlist" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Full List of Air Conditioning & Heating Services</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>Emergency & Routine A/C repair</li>
+                        <li>A/C installation</li>
+                        <li>Air Duct Repair & Installation</li>
+                        <li>Ductless A/C Service</li>
+                        <li>Electric Furnace Repair & Installation</li>
+                        <li>Flame Sensor Repair</li>
+                        <li>Gas Furnace Repair & Installation</li>
+                        <li>Heater Repair & Installation</li>
+                        <li>Thermostat Repair & Installation</li>
+                        <li>HVAC Inspections & Tune-up/Maintenance Service</li>
+                      </ul>
+                      <a class="btn btn-primary btn-lg mr-md-5 mb-4 anchor-nav" href="#contact" data-dismiss="modal">Contact Us</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -114,11 +185,47 @@
           <div class="card-body">
             <div class="mb-4">
               <h4 class="card-title mb-4">Electrical & Plumbing</h4>
-              <p class="card-text">Test Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus id quam eu pellentesque. Sed sed mauris nec dui consectetur commodo et sit amet leo. Aliquam erat volutpat. Curabitur tincidunt justo sit amet
-                urna accumsan, at pellentesque orci blandit.</p>
+              <p class="card-text">We install and repair water heaters, faucets, breakers, fuses and a wide range of other electrical and plumbing needs. Click below to see a full list of services we offer.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-sm btn-secondary anchor-nav">Contact us</a>
+              <button type="button" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#electrical">
+                Learn More
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="electrical" tabindex="-1" role="dialog" aria-labelledby="electicalfixlist" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">Full List of Electrical & Plumbing Services</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li>Smoke & Carbon Monoxide Alarm Installation</li>
+                        <li>Ceiling fan repair & installation</li>
+                        <li>light fixture repair & installation</li>
+                        <li>Receptacle repair</li>
+                        <li>Outlet repair</li>
+                        <li>Breaker Installation</li>
+                        <li>Fuse installation</li>
+                        <li>GFCI Repair</li>
+                        <li>Gas & Electric Hot Water Heater repair & installation</li>
+                        <li>Garbage Disposal repair & installation</li>
+                        <li>Kitchen & Bath faucet repair & installation</li>
+                        <li>toilet repair</li>
+                        <li>minor leak repairs</li>
+                      </ul>
+                      <a class="btn btn-primary btn-lg mr-md-5 mb-4 anchor-nav" href="#contact" data-dismiss="modal">Contact Us</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -257,14 +364,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script>
-  $(window).on("scroll", function() {
-    var scrollPos = $(window).scrollTop();
-    if (scrollPos <= 0) {
-        $('#navbar-example2').addClass('bg-dark-top-page');
-    } else {
-        $('#navbar-example2').removeClass('bg-dark-top-page');
-    }
-});
+    $(function() {
+      $(document).scroll(function() {
+        var $nav = $(".navbar");
+        $nav.toggleClass('bg-nav-dark', $(this).scrollTop() > $nav.height());
+      });
+    });
   </script>
   <script>
     var offset = 160;
