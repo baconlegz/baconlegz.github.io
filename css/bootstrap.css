@@ -2451,7 +2451,17 @@ textarea.form-control {
   -ms-flex-align: center;
   align-items: center;
   height: 75px;
-  margin: 0 15px 30
+}
+.logo-list-mobile {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-evenly;
+}
+.logo-item-mobile {
+  margin: 5px 10px;
 }
 .logo {
   background-position: center;
@@ -10230,6 +10240,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+@media only screen and (max-width: 1000px){
+.hidden-lg {
+display: none;
+}
 @media only screen and (max-width: 568px){
 .hidden-xs {
 display: none;
