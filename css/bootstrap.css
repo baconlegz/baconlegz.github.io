@@ -10240,11 +10240,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-@media only screen and (max-width: 1000px){
-.hidden-lg {
-display: none;
+.hero-logo {
+  height:60px;
 }
-@media only screen and (max-width: 568px){
-.hidden-xs {
-display: none;
+@media (max-width: 420px) {
+  .hero-logo {
+    height: 44px;
+  }
 }
